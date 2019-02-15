@@ -49,7 +49,7 @@ print(alphabets)
 #asking user for data list and storing it in dictionary
 
 tasks = []
-#task is an empty array
+#tasks is an empty array
 def view_all_tasks():
     for task in tasks:
         print(task)
