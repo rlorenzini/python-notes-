@@ -28,7 +28,7 @@ def add_shopping_list():
     address = input("Enter address of shopping list: ")
     shopping_list = ShoppingList(name, address)
   # adding a shopping list object to shopping lists array
-  shopping_lists.append(shopping_list)
+    shopping_lists.append(shopping_list)
 
 def view_all_shopping_lists():
     for index in range(0,len(shopping_lists)):
